@@ -1,0 +1,34 @@
+{
+  "navigation_bar": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "welcome_card": {
+    "welcome": "Hi, I'm",
+    "name": "Magdalena",
+    "arrow": "That's me!"
+  },
+  "icon_array_card": {
+    "arrow": "My stack!"
+  },
+  "projects_page": {
+    "text": "My projects",
+    "code_button": "Code",
+    "projects": {
+      "guildwars2": {
+        "title": "Guild Wars 2 daily helper",
+        "description": "To-do list for various in-game tasks in Guild Wars 2. Made with Vue.js and Express.js."
+      },
+      "discord_bot": {
+        "title": "Discord Annoy-o-bot",
+        "description": "Discord bot for pure, configurable chaos on your desired target. Made in discord.js."
+      }
+    }
+  },
+  "contact_page": {
+    "title": "Contact",
+    "description": "Feel free to contact me using following methods.",
+    "footnote": "Methods of contact requiring my real name are not shown deliberately. Security by obscurity!"
+  }
+}

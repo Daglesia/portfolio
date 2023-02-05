@@ -1,0 +1,29 @@
+{
+  "navigation_bar": {
+    "about": "O mnie",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "welcome_card": {
+    "welcome": "Cześć, jestem",
+    "name": "Magdalena",
+    "arrow": "To ja!"
+  },
+  "icon_array_card": {
+    "arrow": "Mój stack!"
+  },
+  "projects_page": {
+    "text": "Moje projekty",
+    "code_button": "Kod",
+    "projects": {
+      "guildwars2": {
+        "title": "Guild Wars 2 daily helper",
+        "description": "Modyfikowalna lista zadań do zrobienia w Guild Wars 2. Wykonana za pomocą Vue.js oraz Express.js."
+      },
+      "discord_bot": {
+        "title": "Discord Annoy-o-bot",
+        "description": "Konfigurowalny bot do Discorda doprowadzający ludzi do szaleństwa. Stworzony w discord.js."
+      }
+    }
+  }
+}
