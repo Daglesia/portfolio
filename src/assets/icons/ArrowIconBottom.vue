@@ -26,7 +26,9 @@
         />
       </g>
     </svg>
-    <h5 class="text-h5 font-weight-bold">{{ $t("icon_array_card.arrow") }}</h5>
+    <h5 class="txt-h5 font-weight-bold">
+      {{ $t("icon_array_card.arrow") }}
+    </h5>
   </div>
 </template>
 
@@ -37,7 +39,7 @@ svg {
   width: 80px;
 }
 
-.text-h5 {
+.txt-h5 {
   position: absolute;
   white-space: nowrap;
   bottom: 0px;

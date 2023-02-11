@@ -1,5 +1,5 @@
 <template>
-  <v-breadcrumbs :theme="theme" :items="items" class="ml-4 text-h6">
+  <v-breadcrumbs :theme="theme" :items="items" class="ml-4 txt-h6">
     <template v-slot:item="{ item }">
       <v-breadcrumbs-item
         :to="item.to"

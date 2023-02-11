@@ -2,7 +2,7 @@
   <v-btn
     variant="outlined"
     :prepend-icon="props.data.iconSrc"
-    class="text-h6 font-weight-bold ma-2"
+    class="txt-h6 font-weight-bold ma-2"
     size="large"
     @click="$emit('onClick')"
     >{{ props.data.text }}</v-btn

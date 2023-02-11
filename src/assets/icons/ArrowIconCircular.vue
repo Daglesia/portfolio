@@ -25,7 +25,9 @@
         />
       </g>
     </svg>
-    <h5 class="text-h5 font-weight-bold">{{ $t("welcome_card.arrow") }}</h5>
+    <h5 class="txt-h5 font-weight-bold">
+      {{ $t("welcome_card.arrow") }}
+    </h5>
   </div>
 </template>
 
@@ -35,7 +37,7 @@ svg {
   height: 80px;
   width: 80px;
 }
-.text-h5 {
+.txt-h5 {
   position: absolute;
   rotate: -15deg;
   white-space: nowrap;

@@ -1,10 +1,10 @@
 <template>
   <div class="text-center welcome-card justify-center">
-    <div class="text-body-1 font-weight-light mb-2">
+    <div class="txt-body-1 font-weight-light mb-2">
       {{ $t("welcome_card.welcome") }}
     </div>
 
-    <h1 class="text-h2 font-weight-bold">
+    <h1 class="txt-h2 font-weight-bold">
       {{ $t("welcome_card.name") }}
     </h1>
     <v-container>

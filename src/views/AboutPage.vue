@@ -1,10 +1,10 @@
 <template>
-  <v-container>
-    <transition-fade-wrapper>
+  <transition-fade-wrapper>
+    <v-container>
       <profile-pic-card class="mb-8" />
       <icon-array-card />
-    </transition-fade-wrapper>
-  </v-container>
+    </v-container>
+  </transition-fade-wrapper>
 </template>
 
 <script lang="ts" setup>

@@ -1,0 +1,46 @@
+$main-font: "Kalam";
+
+%text-default {
+  font-family: $main-font, sans-serif !important;
+  text-transform: none !important;
+}
+
+.txt-h2 {
+  @extend %text-default;
+  font-size: 3.75rem !important;
+  font-weight: 300;
+  line-height: 3.75rem;
+  letter-spacing: -0.0083333333em !important;
+}
+
+.txt-h4 {
+  @extend %text-default;
+  font-size: 2.125rem !important;
+  font-weight: 400;
+  line-height: 2.5rem;
+  letter-spacing: 0.0073529412em !important;
+}
+
+.txt-h5 {
+  @extend %text-default;
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: normal !important;
+}
+
+.txt-h6 {
+  @extend %text-default;
+  font-size: 1.25rem !important;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 0.0125em !important;
+}
+
+.txt-body-1 {
+  @extend %text-default;
+  font-size: 1rem !important;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.03125em !important;
+}

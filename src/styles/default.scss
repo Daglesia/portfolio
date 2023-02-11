@@ -1,8 +1,4 @@
-$main-font: "Kalam";
-
-.text-stylized {
-  font-family: $main-font !important;
-}
+@import "text";
 
 .v-application {
   color: rgb(var(--v-theme-accent)) !important;

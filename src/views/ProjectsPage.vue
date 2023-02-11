@@ -1,6 +1,6 @@
 <template>
   <transition-fade-wrapper>
-    <h1 class="text-h2 font-weight-bold mb-10 text-center text-stylized">
+    <h1 class="txt-h2 font-weight-bold mb-10 text-center">
       {{ $t("projects_page.text") }}
     </h1>
     <v-carousel hide-delimiters>

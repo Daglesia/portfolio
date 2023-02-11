@@ -6,32 +6,34 @@
 
     <div class="text-center text-body-2 mb-12">The card will appear below:</div>
 
-    <v-lazy
-      v-model="isActive"
-      :options="{
-        threshold: 0.5,
-      }"
-      min-height="200"
-      transition="fade-transition"
-    >
-      <v-card class="mx-auto" max-width="336">
-        <v-card-title>Card title</v-card-title>
+    <transition-fade-wrapper>
+      <v-lazy
+        v-model="isActive"
+        :options="{
+          threshold: 0.5,
+        }"
+        min-height="200"
+      >
+        <v-card class="mx-auto" max-width="336">
+          <v-card-title>Card title</v-card-title>
 
-        <v-card-text>
-          Phasellus magna. Quisque rutrum. Nunc egestas, augue at pellentesque
-          laoreet, felis eros vehicula leo, at malesuada velit leo quis pede.
-          Aliquam lobortis. Quisque libero metus, condimentum nec, tempor a,
-          commodo mollis, magna. In turpis. In dui magna, posuere eget,
-          vestibulum et, tempor auctor, justo. In turpis. Pellentesque dapibus
-          hendrerit tortor. Ut varius tincidunt libero.
-        </v-card-text>
-      </v-card>
-    </v-lazy>
+          <v-card-text>
+            Phasellus magna. Quisque rutrum. Nunc egestas, augue at pellentesque
+            laoreet, felis eros vehicula leo, at malesuada velit leo quis pede.
+            Aliquam lobortis. Quisque libero metus, condimentum nec, tempor a,
+            commodo mollis, magna. In turpis. In dui magna, posuere eget,
+            vestibulum et, tempor auctor, justo. In turpis. Pellentesque dapibus
+            hendrerit tortor. Ut varius tincidunt libero.
+          </v-card-text>
+        </v-card>
+      </v-lazy>
+    </transition-fade-wrapper>
   </v-responsive>
 </template>
 
 <script lang="ts" setup>
 import { ref } from "vue";
+import TransitionFadeWrapper from "./TransitionFadeWrapper.vue";
 
 const isActive = ref(false);
 </script>

@@ -10,10 +10,10 @@
           class="rounded-xl project-description-card"
           :style="`text-align: ${props.project.imgPlacement};`"
         >
-          <div class="text-h4 font-weight-bold ma-2">
+          <div class="txt-h4 font-weight-bold ma-2">
             {{ props.project.title }}
           </div>
-          <div class="font-weight-bold text-h6 ml-4 mr-4">
+          <div class="font-weight-bold txt-h6 ml-4 mr-4">
             {{ props.project.description }}
           </div>
           <icon-text-button
