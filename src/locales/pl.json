@@ -25,5 +25,10 @@
         "description": "Konfigurowalny bot do Discorda doprowadzający ludzi do szaleństwa. Stworzony w discord.js."
       }
     }
+  },
+  "contact_page": {
+    "title": "Kontakt",
+    "description": "Skontaktuj się ze mną z poniższych sposobów:",
+    "footnote": "Nie pokazano tutaj metod kontaktu wiążących mnie z moim nazwiskiem. Bezpieczeństwo przez niejawność!"
   }
 }

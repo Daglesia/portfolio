@@ -8,7 +8,7 @@
         {{ $t("contact_page.description") }}
       </div>
       <v-container class="justify-center">
-        <v-row v-for="contact in possibleContacts" class="ma-4">
+        <v-row v-for="contact in possibleContacts" class="ma-4 txt-body-1">
           <v-icon :icon="contact.icon" size="x-large" class="mr-2"></v-icon
           >{{ contact.value }}
         </v-row>
@@ -23,7 +23,6 @@
 
 <script lang="ts" setup>
 import TransitionFadeWrapper from "@/components/TransitionFadeWrapper.vue";
-import { splitArrayToChunks } from "@/utils/utils";
 
 const possibleContacts = [
   { icon: "mdi:mdi-email", value: "daglesia.social<at>gmail.com" },
