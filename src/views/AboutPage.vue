@@ -10,9 +10,7 @@
 <script lang="ts" setup>
 import ProfilePicCard from "@/components/ProfilePicCard.vue";
 import IconArrayCard from "@/components/IconArrayCard.vue";
-import ProjectsPage from "./ProjectsPage.vue";
 import TransitionFadeWrapper from "@/components/TransitionFadeWrapper.vue";
-import { onMounted, ref } from "vue";
 </script>
 
 <style lang="scss" scoped>

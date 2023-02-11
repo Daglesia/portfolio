@@ -30,7 +30,6 @@
 <script lang="ts" setup>
 import { ProjectComponentProps } from "@/types/types";
 import IconTextButton from "@/components/IconTextButton.vue";
-import TransitionFadeWrapper from "./TransitionFadeWrapper.vue";
 import { openInNewTab } from "@/utils/utils";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";

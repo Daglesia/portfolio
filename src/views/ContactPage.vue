@@ -1,10 +1,10 @@
 <template>
   <transition-fade-wrapper>
     <div class="text-center justify-center">
-      <h1 class="text-h2 font-weight-bold">
+      <h1 class="text-h2 font-weight-bold text-stylized">
         {{ $t("contact_page.title") }}
       </h1>
-      <div class="text-body-1 font-weight-bold mb-2">
+      <div class="text-body-1 font-weight-bold mb-2 text-stylized">
         {{ $t("contact_page.description") }}
       </div>
       <v-container class="justify-center">
@@ -13,7 +13,7 @@
           >{{ contact.value }}
         </v-row>
       </v-container>
-      <div class="text-body-1 font-weight-light mb-2">
+      <div class="text-body-1 font-weight-light mb-2 text-stylized">
         {{ $t("contact_page.footnote") }}
       </div>
     </div>

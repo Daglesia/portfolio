@@ -1,0 +1,17 @@
+$main-font: "Kalam";
+
+.text-stylized {
+  font-family: $main-font !important;
+}
+
+.v-application {
+  color: rgb(var(--v-theme-accent)) !important;
+}
+
+.v-card {
+  color: rgb(var(--v-theme-accent)) !important;
+}
+
+.rounded-card {
+  border-radius: 50% !important;
+}

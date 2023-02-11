@@ -1,6 +1,6 @@
 <template>
   <transition-fade-wrapper>
-    <h1 class="text-h2 font-weight-bold mb-10 text-center">
+    <h1 class="text-h2 font-weight-bold mb-10 text-center text-stylized">
       {{ $t("projects_page.text") }}
     </h1>
     <v-carousel hide-delimiters>
@@ -18,6 +18,10 @@
 <script lang="ts" setup>
 import ProjectComponent from "@/components/ProjectComponent.vue";
 import TransitionFadeWrapper from "@/components/TransitionFadeWrapper.vue";
+
+import Image1 from "@/assets/images/project1.webp";
+import ImageDiscord from "@/assets/images/projectDiscord.png";
+
 import { splitArrayToChunks } from "@/utils/utils";
 import { computed } from "vue";
 import { useI18n } from "vue-i18n";
@@ -35,12 +39,12 @@ const projects = computed(() => {
   const projectsArray = [
     {
       ...getProjectTranslatedInfo("guildwars2"),
-      imgSrc: "/src/assets/images/project1.png",
+      imgSrc: Image1,
       url: "https://google.com",
     },
     {
       ...getProjectTranslatedInfo("discord_bot"),
-      imgSrc: "/src/assets/images/projectDiscord.png",
+      imgSrc: ImageDiscord,
       url: "https://github.com/Daglesia/discord-annoy-o-bot",
     },
     {

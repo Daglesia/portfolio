@@ -1,17 +1,13 @@
 set -e
 
-npm run build
+yarn run build
 
-cd dist
+echo > ./dist/nojekyll
 
-echo > .nojekyll
-
-
-git init
-git checkout -B main
-git add -A
+git checkout -B ghpages
+git add dist -f
 git commit -m 'deploy'
 
-git push -f git@github.com:Daglesia/Daglesia.github.io.git main
+git subtree push --prefix dist portfolio ghpages
 
 cd -

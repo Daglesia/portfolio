@@ -10,7 +10,7 @@
     <v-container>
       <arrow-icon-circular />
       <v-card class="ma-2 mr-auto ml-auto">
-        <v-img src="@/assets/profilepicture.jpg" />
+        <v-img src="@/assets/images/profilepicture.jpg" />
       </v-card>
     </v-container>
   </div>
@@ -32,5 +32,10 @@ import ArrowIconCircular from "@/assets/icons/ArrowIconCircular.vue";
 }
 .arrow-icon-circular {
   left: 420px; // nice
+}
+
+.v-img {
+  max-height: none !important;
+  max-width: none !important;
 }
 </style>
