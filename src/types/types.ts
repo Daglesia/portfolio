@@ -1,5 +1,3 @@
-import { Component } from "vue";
-
 export interface ProjectComponentProps {
   title: string;
   description: string;
