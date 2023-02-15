@@ -26,6 +26,6 @@
     "src/**/*.vue",
     "src/**/*.json",
     "vite.config.ts",
-    "src/assets/translations/en.json"
+    "src/assets/translations/*.json"
   ]
 }
