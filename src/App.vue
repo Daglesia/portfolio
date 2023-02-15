@@ -10,6 +10,5 @@
 <script lang="ts" setup>
 import { Transition } from "@/types/transitions";
 import NavigationBar from "@/components/NavigationBar.vue";
-import LazyComponentWrapper from "./components/LazyComponentWrapper.vue";
 import TransitionWrapper from "@/components/TransitionWrapper.vue";
 </script>

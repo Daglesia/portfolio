@@ -6,10 +6,15 @@
 
 // Styles
 import "@mdi/font/css/materialdesignicons.css";
+import "@fortawesome/fontawesome-free/css/all.css";
+import { aliases, fa } from "vuetify/iconsets/fa";
 import "vuetify/styles";
 
 // Composables
 import { createVuetify, ThemeDefinition } from "vuetify";
+
+/* add icons to the library */
+//library.add(faUserSecret);
 
 // https://colorhunt.co/palette/f8ede3dfd3c3d0b8a885586f
 
@@ -40,6 +45,13 @@ export default createVuetify({
     themes: {
       coffeeLightTheme,
       coffeeDarkTheme,
+    },
+  },
+  icons: {
+    defaultSet: "fa",
+    aliases,
+    sets: {
+      fa,
     },
   },
 });

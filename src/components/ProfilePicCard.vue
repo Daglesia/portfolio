@@ -23,8 +23,10 @@ import ArrowIconCircular from "@/assets/icons/ArrowIconCircular.vue";
 <style lang="scss" scoped>
 .v-card {
   border-radius: 50% !important;
-  height: 500px;
-  width: 500px;
+  max-height: 500px;
+  max-width: 500px;
+  height: auto;
+  width: auto;
 }
 .v-container {
   max-width: 500px;

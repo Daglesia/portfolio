@@ -7,7 +7,7 @@
         </v-col>
       </v-row>
     </v-card>
-    <arrow-icon-bottom />
+    <arrow-icon-bottom class="d-none d-lg-flex" />
   </div>
 </template>
 
