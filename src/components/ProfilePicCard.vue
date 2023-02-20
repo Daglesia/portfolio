@@ -7,12 +7,14 @@
     <h1 class="txt-h2 font-weight-bold">
       {{ $t("welcome_card.name") }}
     </h1>
-    <v-container>
-      <arrow-icon-circular />
-      <v-card class="ma-2 mr-auto ml-auto">
-        <v-img src="@/assets/images/profilepicture.jpg" />
-      </v-card>
-    </v-container>
+    <div>
+      <div class="v-card-holder">
+        <arrow-icon-circular />
+        <v-card class="ma-2 mr-auto ml-auto">
+          <v-img src="@/assets/images/profilepicture.jpg" />
+        </v-card>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -21,19 +23,21 @@ import ArrowIconCircular from "@/assets/icons/ArrowIconCircular.vue";
 </script>
 
 <style lang="scss" scoped>
+.v-card-holder {
+  max-height: 30em;
+  max-width: 30em;
+  margin: auto;
+}
 .v-card {
   border-radius: 50% !important;
-  max-height: 500px;
-  max-width: 500px;
-  height: auto;
-  width: auto;
+  max-height: 30em;
+  max-width: 30em;
 }
 .v-container {
-  max-width: 500px;
-  padding: 0px;
+  padding: 0;
 }
 .arrow-icon-circular {
-  left: 420px; // nice
+  left: 25em;
 }
 
 .v-img {

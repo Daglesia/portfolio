@@ -35,14 +35,14 @@
 <style lang="scss" scoped>
 svg {
   position: absolute;
-  height: 80px;
-  width: 80px;
+  height: 5em;
+  width: 5em;
 }
 
 .txt-h5 {
   position: absolute;
   white-space: nowrap;
-  bottom: 0px;
+  bottom: 0;
 }
 
 .container {

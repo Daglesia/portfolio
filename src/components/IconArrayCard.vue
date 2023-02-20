@@ -32,17 +32,17 @@ const icons = [
   justify-content: center;
 }
 .arrow-icon-bottom {
-  bottom: 200px;
-  left: 80px;
+  bottom: 12em;
+  left: 5em;
 }
 
 .v-row {
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 
 i {
-  font-size: 80px;
+  font-size: 6em;
   color: rgb(var(--v-theme-accent));
 }
 </style>

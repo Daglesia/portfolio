@@ -34,15 +34,15 @@
 <style lang="scss" scoped>
 svg {
   position: absolute;
-  height: 80px;
-  width: 80px;
+  height: 5em;
+  width: 5em;
 }
 .txt-h5 {
   position: absolute;
   rotate: -15deg;
   white-space: nowrap;
-  left: 55px;
-  top: 30px;
+  left: 2em;
+  top: 1.2em;
 }
 
 .container {

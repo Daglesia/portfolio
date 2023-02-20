@@ -48,7 +48,7 @@ const possibleContacts = [
 
 .v-icon {
   font-size: x-large;
-  width: 50px;
+  width: 1.5em;
 }
 .v-row {
   align-items: center;

@@ -57,7 +57,7 @@ const buttonData = computed(() => {
 
 <style lang="scss" scoped>
 .icon-text-button {
-  margin-left: 8px;
+  margin-left: 1em;
 }
 
 .project-description-card {
@@ -66,7 +66,7 @@ const buttonData = computed(() => {
 }
 
 img {
-  height: 300px;
+  height: 18em;
   width: inherit;
   box-shadow: 0px 2px 1px -1px var(--v-shadow-key-umbra-opacity, rgba(0, 0, 0, 0.2)),
     0px 1px 1px 0px var(--v-shadow-key-penumbra-opacity, rgba(0, 0, 0, 0.14)),
